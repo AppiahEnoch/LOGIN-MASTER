@@ -1,0 +1,29 @@
+@media (min-width: 540px) {
+  #navbarNavDropdown {
+    background-color: whitesmoke;
+  }
+  #navbarNavDropdown, .dropdown a{
+    background-color: transparent !important;
+    color: #0f5132;
+  }
+  #navbarNavDropdown, .dropdown a:hover {
+    color: blue;
+ text-decoration: underline;
+}
+
+#navbarNavDropdown .dropdown a{
+  width: 100%;
+  background-color:#6C757D;
+
+
+}
+
+.dropdown-menu .dropdown-item{
+  color: black;
+  background-color:white !important; 
+}
+}
+
+#carousel-wrapper{
+  margin-top: 5.8rem;
+}

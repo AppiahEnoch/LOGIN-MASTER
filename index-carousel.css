@@ -1,0 +1,13 @@
+#carousel-wrapper{
+  margin-top: 18rem;
+    max-height: 28rem;
+}
+
+#carousel-wrapper img {
+    max-height: 28rem;
+  }
+  
+  #carousel-btn-prev, #carousel-btn-next{
+    background-color: black;
+    border-radius: 50%;
+  }
