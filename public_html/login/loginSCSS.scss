@@ -1,0 +1,25 @@
+// Variables
+$background-color: #0F3D27; // Darker shade of green
+$body-color: #356259; // Medium shade of green
+$primary-button-color: #20693D; // Dark green
+$secondary-button-color: #6C757D; // Gray
+$icon-color: #20693D; // Dark green
+$link-color: #20693D; // Dark green
+$link-hover-color: #0F2716; // Darker shade of green for hover effect
+$button-hover-color: #0F2716; // Darker shade of green for hover effect
+
+
+
+
+html, body{
+    background-color: $background-color;
+}
+
+i{
+    color: $icon-color;
+    &:hover{
+        color: $link-color;
+
+    }
+}
+
