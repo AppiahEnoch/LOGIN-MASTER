@@ -1,0 +1,22 @@
+{
+    "name": "aecleancodes/login-master",
+    "autoload": {
+        "psr-4": {
+            "Aecleancodes\\LoginMaster\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AppiahEnoch",
+            "email": "prignutt@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.8",
+        "phpoffice/phpspreadsheet": "^1.28",
+        "setasign/fpdf": "^1.8",
+        "phpoffice/phpword": "^1.0",
+        "bacon/bacon-qr-code": "^2.0"
+    }
+}

@@ -1,0 +1,204 @@
+<!--- WRAPPER 2-->
+
+<!-- REGISTRATION PAGE-->
+
+<div id="wrapper2" class="col">
+  <form
+    id="form2"
+    class="row g-1 d-flex align-items-center justify-content-center m-auto mt-2"
+  >
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">
+        <i class="fa fa-key" aria-hidden="true"></i>
+      </span>
+      <input
+        type="text"
+        class="form-control"
+        id="registration_code"
+        placeholder="Registration code"
+      />
+      <span class="input-group-text" id="basic-addon1">
+        <button
+          id="verify_email"
+          class="btn btn-sm m-0 p-0 pe-1 ps-1 bg-primary text-white"
+        >
+          Verify
+        </button>
+      </span>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </span>
+      <input
+        type="email"
+        class="form-control"
+        id="email1"
+        placeholder="Email"
+      />
+      <span class="input-group-text" id="basic-addon1">
+        <button
+          id="verify_email2"
+          class="btn btn-sm m-0 p-0 pe-1 ps-1 bg-primary text-white"
+        >
+          Code
+        </button>
+      </span>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">
+        <i class="fa fa-envelope" aria-hidden="true"></i
+      ></span>
+      <input
+        type="text"
+        class="form-control"
+        id="verify_email_Code"
+        placeholder="Email Verification Code"
+      />
+
+      <span class="input-group-text" id="basic-addon1">
+        <button
+          id="verify_email31"
+          class="btn btn-sm m-0 p-0 pe-1 ps-1 bg-primary text-white"
+        >
+          Verify
+        </button>
+      </span>
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">
+        <i class="bi bi-telephone-inbound-fill"></i>
+      </span>
+      <input
+        type="tel"
+        class="form-control"
+        id="mobile1"
+        placeholder="Mobile"
+      />
+    </div>
+
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">
+        <i class="fa fa-user-circle" aria-hidden="true"></i
+      ></span>
+      <input
+        type="password"
+        class="form-control"
+        id="tbusername2"
+        placeholder="username"
+      />
+      <span class="input-group-text">
+        <i
+          onclick=" togglePasswordVisibility('tbusername2', 'toggleUsername2')"
+          class="far fa-eye"
+          id="toggleUsername2"
+          style="cursor: pointer"
+        ></i>
+      </span>
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-text" id="basic-addon1"
+        ><i class="bi bi-file-lock2-fill"></i
+      ></span>
+
+      <input
+        type="password"
+        class="form-control"
+        id="tbpassword2"
+        placeholder="password"
+      />
+      <span class="input-group-text">
+        <i
+          onclick=" togglePasswordVisibility('tbpassword2', 'togglePassword2')"
+          class="far fa-eye"
+          id="togglePassword2"
+          style="cursor: pointer"
+        ></i>
+      </span>
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-text" id="basic-addon1"
+        ><i class="bi bi-file-lock2-fill"></i
+      ></span>
+
+      <input
+        type="password"
+        class="form-control"
+        id="confirm1"
+        placeholder="Confirm password"
+      />
+      <span class="input-group-text">
+        <i
+          onclick=" togglePasswordVisibility('confirm1', 'toggleconfirm1')"
+          class="far fa-eye"
+          id="toggleconfirm1"
+          style="cursor: pointer"
+        ></i>
+      </span>
+    </div>
+
+    <div class="col-12">
+      <button id="register" type="submit" class="btn btn-primary">
+        Continue
+      </button>
+    </div>
+
+    <div class="col-12 mt-1">
+      <div class="row">
+        <div id="wrapper-col-6" class="row">
+          <div class="col-6">
+            <a href="#"> <i class="fa fa-key" aria-hidden="true"></i> Login</a>
+          </div>
+
+          <div class="col-6">
+            <a href="#"> <i class="bi bi-house-add-fill"></i>Go Back</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div
+              style="color: blue"
+              class="spinner-border d-none"
+              role="status"
+            >
+              <span class="visually-hidden">Loading...</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toast-container position-fixed top-0 p-3">
+        <div
+          id="liveToast"
+          class="toast"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="toast-header">
+            <strong class="me-auto">Unknown Username or Password</strong>
+            <small> <i class="fa fa-lock" aria-hidden="true"></i></small>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="toast-body">
+            Your username or password is not registered.
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+<!--- WRAPPER 2 END-->
